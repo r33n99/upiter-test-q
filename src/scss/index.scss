@@ -1,0 +1,21 @@
+@import url("./null.css");
+@import url("./components/_header.scss");
+@import url("./components/_content.scss");
+@import url("./components/_categories.scss");
+@import url("./components/_card.scss");
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;800;900&display=swap');
+
+
+body {
+    font-family: "Epilogue", sans-serif;
+}
+.wrapper {
+    width: 100%;
+}
+.container {
+    width: 1175px;
+    margin: 0 auto;
+    @media screen and (max-width: 1040px) {
+        width: 100%;
+    }
+}

@@ -1,0 +1,27 @@
+.categories {
+    color: #391400;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        &.categories ul li {
+            margin-right: 5px;
+        }
+    }
+    ul {
+        display: flex;
+        li {
+            cursor: pointer;
+            margin-right: 55px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        .active-list {
+            color: #16cd53;
+        }
+    }
+}
